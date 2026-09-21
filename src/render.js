@@ -49,7 +49,7 @@ export function renderPage(lang) {
 
   const ld = {
     '@context': 'https://schema.org', '@type': 'GeneralContractor', name: 'EATEC Construction Kft.', url: base + '/',
-    logo: base + '/assets/img/logo.png', ...(email ? { email } : {}), ...(phone ? { telephone: phone } : {}),
+    logo: base + '/assets/img/logo-light.png', ...(email ? { email } : {}), ...(phone ? { telephone: phone } : {}),
     address: { '@type': 'PostalAddress', streetAddress: lines(S['address|en'] || '').join(', '), addressCountry: 'HU' },
     ...(socials.length ? { sameAs: socials.map(([k]) => G(k)) } : {}),
   };
@@ -90,7 +90,7 @@ export function renderPage(lang) {
 <link rel="alternate" hreflang="en" href="${url('en')}">
 <link rel="alternate" hreflang="hu" href="${url('hu')}">
 <link rel="alternate" hreflang="x-default" href="${url('en')}">
-<link rel="icon" href="/assets/img/logo.png">
+<link rel="icon" href="/assets/img/logo-light.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
@@ -108,7 +108,7 @@ ${heroPreload}
 <a class="skip" href="#main">${esc(T('skip'))}</a>
 
 <header class="nav">
-  <a class="logo" href="${lang === 'hu' ? '/hu/' : '/'}#top" aria-label="EATEC Construction"><img src="/assets/img/logo.png" alt="EATEC Construction" width="90" height="40"></a>
+  <a class="logo" href="${lang === 'hu' ? '/hu/' : '/'}#top" aria-label="EATEC Construction"><img class="logo-dark" src="/assets/img/logo-dark.png" alt="EATEC Construction" width="102" height="44"><img class="logo-light" src="/assets/img/logo-light.png" alt="" width="102" height="44"></a>
   <nav aria-label="Main">
     <ul>
       <li><a href="#projects">${esc(T('nav_projects'))}</a></li>

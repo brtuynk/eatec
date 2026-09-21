@@ -67,8 +67,8 @@ function layout(req, title, body, { flash } = {}) {
   const path = req.baseUrl + req.path;
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><title>${esc(title)} | EATEC admin</title>
-<link rel="stylesheet" href="/assets/admin.css"><link rel="icon" href="/assets/img/logo.png"></head><body>
-<aside><a class="brand" href="/admin"><img src="/assets/img/logo.png" alt="EATEC" height="34"></a>
+<link rel="stylesheet" href="/assets/admin.css"><link rel="icon" href="/assets/img/logo-light.png"></head><body>
+<aside><a class="brand" href="/admin"><img src="/assets/img/logo-dark.png" alt="EATEC" height="34"></a>
 <nav>${nav.map(([h, l]) => `<a href="${h}"${path === h || (h !== '/admin' && path.startsWith(h + '/')) ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
 <div class="side-foot"><a href="/" target="_blank" rel="noopener">View site</a>
 <form method="post" action="/admin/logout"><input type="hidden" name="_csrf" value="${req.session.csrf}"><button>Log out</button></form></div></aside>
@@ -96,7 +96,7 @@ function fieldHtml(f, value, { removable } = {}) {
 admin.get('/login', (req, res) => {
   if (req.session) return res.redirect('/admin');
   res.send(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Log in | EATEC admin</title><link rel="stylesheet" href="/assets/admin.css"></head>
-<body class="login"><form method="post" action="/admin/login"><img src="/assets/img/logo.png" alt="EATEC" height="44"><h1>Admin log in</h1>
+<body class="login"><form method="post" action="/admin/login"><img src="/assets/img/logo-light.png" alt="EATEC" height="44"><h1>Admin log in</h1>
 ${req.query.err ? `<p class="flash err">${esc(req.query.err)}</p>` : ''}
 <div class="fld"><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="username" required autofocus></div>
 <div class="fld"><label for="p">Password</label><input id="p" name="password" type="password" autocomplete="current-password" required></div>

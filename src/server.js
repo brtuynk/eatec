@@ -55,7 +55,7 @@ app.post('/contact', express.json({ limit: '20kb' }), (req, res) => {
 
 app.use('/admin', admin);
 
-app.use((_req, res) => res.status(404).type('html').send(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Not found</title><body style="font:18px system-ui;background:#0a0a09;color:#eee;display:grid;place-items:center;height:100vh;margin:0"><p>Page not found. <a style="color:#f8af41" href="/">Go to the home page</a></p>`));
+app.use((_req, res) => res.status(404).type('html').send(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Not found</title><body style="font:18px system-ui;background:#0a0a09;color:#eee;display:grid;place-items:center;height:100vh;margin:0"><p>Page not found. <a style="color:#1E998F" href="/">Go to the home page</a></p>`));
 app.use((err, _req, res, _next) => { console.error(err); res.status(500).type('text').send('Something went wrong.'); });
 
 ensureAdmin();

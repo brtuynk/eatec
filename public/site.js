@@ -44,7 +44,7 @@
     });
   }
 
-  /* application cards: soft amber spotlight follows the cursor (pointer devices only) */
+  /* application cards: soft accent spotlight follows the cursor (pointer devices only) */
   if (matchMedia('(pointer:fine)').matches && !reduce) {
     $$('.app').forEach(function (c) {
       c.addEventListener('pointermove', function (e) { var r = c.getBoundingClientRect(); c.style.setProperty('--mx', (e.clientX - r.left) + 'px'); c.style.setProperty('--my', (e.clientY - r.top) + 'px'); });
