@@ -1,0 +1,22 @@
+{
+  "name": "eatec-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EATEC Construction: public website and admin panel in one app",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "set-admin": "node src/set-admin.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.10",
+    "sharp": "^0.35.4"
+  }
+}

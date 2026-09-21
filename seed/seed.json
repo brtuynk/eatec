@@ -1,0 +1,191 @@
+{
+  "services": [
+    {
+      "title_en": "Plasterboard Ceiling & Partition",
+      "title_hu": "Gipszkarton mennyezet",
+      "desc_en": "Plasterboards can be cut and shaped according to the desired form and size. In this way, it provides wide usage possibilities. It can be applied from small scale and large scale areas like ceiling of a house to offices, dental clinics, shopping malls.",
+      "desc_hu": "A gipszkartonok a kívánt forma és méret szerint vághatók és alakíthatók. Ily módon széles körű felhasználási lehetőségeket biztosít. Kis és nagy méretű területekről, például a ház mennyezetéről irodákra, fogászati klinikákra, bevásárlóközpontokra alkalmazható.",
+      "image": "11.jpeg"
+    },
+    {
+      "title_en": "3D Complex Gypsumboard Products",
+      "title_hu": "3D komplex gipszkarton termékek",
+      "desc_en": "3D complex gypsumboard modules, which are produced to the exact dimensions and forms of your project, can be easily used to create curved surfaces and organic forms on both ceilings and walls. Since each module is specific to its own place in the project, it is easy to install like making a puzzle.\n\nBendboard is our own brand.",
+      "desc_hu": "A 3D komplex gipszkarton modulok, amelyeket kifejezetten a projekt méreteinek és formáinak megfelelően állítanak elő, könnyen használhatók ívelt felületek és szerves formák létrehozására mind a mennyezeten, mind a falakon. Mivel minden modul a saját helyére jellemző a projektben, könnyen telepíthető, mint egy rejtvény készítése.\n\nA Bendboard saját márkánk.",
+      "image": "13.jpeg",
+      "link_url": "https://www.bendboard.eu",
+      "link_label_en": "bendboard.eu",
+      "link_label_hu": "bendboard.eu"
+    },
+    {
+      "title_en": "Renovation",
+      "title_hu": "Lakás felújítás",
+      "desc_en": "If you want to renovate your flat, cafe, office etc. or make changes in them, we provide consultancy, design and implement projects in line with your wishes. Also, in our workshops, we produce furnitures and interior doors which are designed specially for your place.",
+      "desc_hu": "Ha lakását, kávézóját, irodáját stb. szeretné felújítani, vagy azokban változtatásokat eszközölni, tanácsadást nyújtunk, az Ön kívánságai alapján  projektek tervezése és megvalósításához. Emellett műhelyeinkben olyan bútorokat és beltéri ajtókat is gyártunk, amelyek kifejezetten Önre vannak tervezve.",
+      "image": "16_5s65S45_pMTk6iZ_9X8SpSm.jpeg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Zara Bari",
+      "country_en": "Italy",
+      "country_hu": "Olaszország",
+      "year": "",
+      "image": "49.jpeg"
+    },
+    {
+      "name": "Zara Rotterdam",
+      "country_en": "Netherlands",
+      "country_hu": "Hollandia",
+      "year": "",
+      "image": "ZARA_rottterdam.jpg"
+    },
+    {
+      "name": "Zara Bielefeld",
+      "country_en": "Germany",
+      "country_hu": "Németország",
+      "year": "",
+      "image": "Zara_Bielefeld.jpg"
+    },
+    {
+      "name": "Clinic Baviera, Trier",
+      "country_en": "Germany",
+      "country_hu": "Németország",
+      "year": "",
+      "image": "WhatsApp_Image_2024-08-17_at_22.07.46_365e9876_3SwBCYT.jpg"
+    },
+    {
+      "name": "Oysho Arena Plaza",
+      "country_en": "Hungary",
+      "country_hu": "Magyarország",
+      "year": "2025",
+      "image": "oyho_arena_plaza.jpg"
+    },
+    {
+      "name": "Bershka Arena Plaza",
+      "country_en": "Hungary",
+      "country_hu": "Magyarország",
+      "year": "2025",
+      "image": "photo_2025-04-14_13-32-11.jpg"
+    },
+    {
+      "name": "Bershka Antwerpen",
+      "country_en": "Belgium",
+      "country_hu": "Belgium",
+      "year": "2025",
+      "image": "photo_2025-04-14_13-32-22.jpg"
+    },
+    {
+      "name": "Stradivarius Arena Plaza",
+      "country_en": "Hungary",
+      "country_hu": "Magyarország",
+      "year": "2025",
+      "image": "7_06fqiey.jpg"
+    },
+    {
+      "name": "Zara Arena Plaza",
+      "country_en": "Hungary",
+      "country_hu": "Magyarország",
+      "year": "2025",
+      "image": "Site_Kapak.jpg"
+    },
+    {
+      "name": "Zara Home Hamburg",
+      "country_en": "Germany",
+      "country_hu": "Németország",
+      "year": "2025",
+      "image": "hamburg_SF7xrOP.jpg"
+    },
+    {
+      "name": "Stradivarius Aupark Košice",
+      "country_en": "Slovakia",
+      "country_hu": "Szlovákia",
+      "year": "2025",
+      "image": "8_6wG9RDt.jpg"
+    },
+    {
+      "name": "Oysho Fashion Street",
+      "country_en": "Hungary",
+      "country_hu": "Magyarország",
+      "year": "2026",
+      "image": "7_ug4fwRA.jpg"
+    },
+    {
+      "name": "Massimo Dutti Fashion Street",
+      "country_en": "Hungary",
+      "country_hu": "Magyarország",
+      "year": "2026",
+      "image": "10_-_Kopya.jpg"
+    }
+  ],
+  "brands": [
+    {
+      "name": "Zara",
+      "image": "logo-zara.png"
+    },
+    {
+      "name": "Zara Home",
+      "image": "logo-zara-home.png"
+    },
+    {
+      "name": "Bershka",
+      "image": "logo-bershka.png"
+    },
+    {
+      "name": "Massimo Dutti",
+      "image": "logo-massimo-dutti.png"
+    },
+    {
+      "name": "Oysho",
+      "image": "logo-oysho.png"
+    },
+    {
+      "name": "Pull&Bear",
+      "image": "logo-pull-bear.png"
+    },
+    {
+      "name": "Stradivarius",
+      "image": "logo-stradivarius.png"
+    }
+  ],
+  "policies": [
+    {
+      "title_en": "Quality Policy",
+      "title_hu": "Minőségpolitika",
+      "body_en": "Our company uses resources economically, effectively and efficiently in order to maintain customer satisfaction by taking into account customer needs and potentials with the active participation of all our employees. It always delivers the products on time and improves the management system continuously.\nWhile doing all this, it aims to be a leader in it’s area, to develop its innovative identity, and to maintain its difference in national and international competition.\nWhat we have done so far and what we will do in the future are open to the public's knowledge, and ensuring and maintaining the production quality has been adopted by us as the main responsibility of the brand.",
+      "body_hu": "Cégünk gazdaságosan és eredményesen használja fel erőforrásait az ügyfelek elégedettségének fenntartása érdekében, figyelembe véve az ügyfelek igényeit és lehetőségeit, minden alkalmazottunk aktív részvételével. Mindig időben szállítja a termékeket, és folyamatosan javítja az irányítási rendszert.\nMindeközben arra törekszik, hogy vezető szerepet töltsön be a területén, fejlessze innovatív identitását, és megőrizze különbségét a nemzeti és nemzetközi versenyben.\nAmit eddig tettünk, és amit a jövőben tenni fogunk, az nyitott a nyilvánosság tudomására, és a gyártási minőség biztosítását és fenntartását a márka fő feladataként fogadtuk el."
+    },
+    {
+      "title_en": "Work Safety Policy",
+      "title_hu": "Munkavédelmi szabályzat",
+      "body_en": "Our \"occupational health and safety policy\" reflects the superior value that we give to people, as a leading company in the sector in terms of technology and quality, awareness of responsibilities for the environment and society and making significant contributions to the country's economy.\nOur main goal is to protect the health of the employees, to make the working and environmental conditions healthy, to identify the conditions that may cause work accidents and occupational diseases, to determine the risks, to organize scientific and modern methods to take necessary precautions, and to completely eliminate the dangers.",
+      "body_hu": "\"Munkahelyi egészségvédelmi és biztonsági politikánk\" tükrözi azt a kiemelkedő értéket, melyet az embereknek, mint az ágazat vezető vállalatának adunk a technológia és a minőség, a környezetért és a társadalomért viselt felelősség tudatossága, valamint az ország gazdaságához való jelentős hozzájárulás szempontjából.\nFő célunk a munkavállalók egészségének védelme, a munka- és környezeti feltételek egészségessé tétele, a munkahelyi baleseteket, foglalkozási megbetegedéseket okozó körülmények azonosítása, a kockázatok meghatározása, a szükséges óvintézkedések megtételére szolgáló tudományos és modern módszerek megszervezése, a veszélyek teljes kiszűrése."
+    },
+    {
+      "title_en": "Environmental Policy",
+      "title_hu": "Környezetvédelem",
+      "body_en": "We accept the criteria that will highlight construction and engineering services as accurate planning and budgeting, fast and on-time delivery, and providing international quality standards.\nWithin the framework of providing quality standards, as a company which adopts protecting the global environment as a principle, we work for human health and the environment at every activity stage.\nWe will fulfil our responsibility to the environment by complying with the legal requirements, by making efforts to reduce the environmental impacts resulting from our activities, by continuously improve our environmental performance and to spread environmental awareness in order to protect and preserve our environment.",
+      "body_hu": "Elfogadjuk azokat a kritériumokat, amelyek kiemelik az építési és mérnöki szolgáltatásokat, mint a pontos tervezést és költségvetést, a gyors és időben történő szállítást, valamint a nemzetközi minőségi szabványok biztosítását.\nA minőségi előírások biztosítása keretében, olyan vállalatként, amely alapelvként fogadja el a globális környezet védelmét, minden tevékenységi szakaszban az emberi egészségért és a környezetért dolgozunk.\nA környezet iránti felelősségünket a jogszabályi előírások betartásával, a tevékenységünkből eredő környezeti hatások csökkentésére irányuló erőfeszítésekkel, környezeti teljesítményünk folyamatos javításával és a környezettudatosság terjesztésével teljesítjük környezetünk védelme és megőrzése érdekében."
+    }
+  ],
+  "settings": {
+    "hero_image": "ZARA_Rotterdam_nc77t4T.jpg",
+    "corp_image": "1.jpeg",
+    "corp_text": {
+      "en": "Eatec Construction gives various opportunities to the professionals of the industry to actualize their ideas and designs through its specialties which are Suspended Ceiling Systems, Partition Wall Systems and 3D Complex Gypsumboard Products. Our company carries out the application/construction processes with the aim of solving problems and producing new alternatives, and develops itself each day by following closely the requirements and innovations of technology.",
+      "hu": "A Eatec Construction különféle lehetőségeket kínál az iparág szakembereinek, hogy megvalósítsák ötleteiket és terveiket olyan speciális termékeken keresztül, mint az álmennyezeti rendszerek, a válaszfalrendszerek és a 3D komplex gipszkarton termékek. Cégünk problémamegoldással és új alternatívák előállításával végzi az alkalmazási/kivitelezési folyamatokat, és minden nap a technológiai követelmények és innovációk szoros követésével fejleszti magát."
+    },
+    "address": {
+      "en": "Eatec Construction Kft.\nKossuth Lajos út 103.\n2161 Csomád, Hungary",
+      "hu": "Eatec Construction Kft.\nKossuth Lajos út 103.\n2161 Csomád, Hungary"
+    },
+    "email": "office@eatecconstruction.com",
+    "phone": "",
+    "social": {
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  }
+}
